@@ -31,6 +31,7 @@
 \usepackage{multicol,multirow}
 \usepackage{calc}
 \usepackage{ifthen}
+\usepackage{color}
 \usepackage{tikz}
 \usepackage[landscape]{geometry}
 \usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
@@ -77,27 +78,27 @@
     \setlength{\postmulticols}{1pt}
     \setlength{\multicolsep}{1pt}
     \setlength{\columnsep}{2pt}
-
+    \section{Zahlen und Logik}
     \subsection{Zahlen}
     \begin{tabular}{l|l|l}
         \textbf{*}         & \textbf{Bedeutung}                           & \textbf{Beispiel}                            \\ \hline
-        $\mathbb{N}$       & \verb!Natürliche Zahlen = ganze Positive!    & \verb!{1;2;3;}!                              \\
-        ${\mathbb{N}}_{0}$ & \verb!Natürliche Zahlen mit 0!               & \verb!{0;1;2;}!                              \\
-        $\mathbb{Z}$       & \verb!Ganze Zahlen = N + ganze Negative!     & \verb!{-1;0;1;}!                             \\
-        $\mathbb{Q}$       & \verb!Rationale Zahlen = Bruchzahlen!        & $\frac{3}{7} $ $\frac{5}{9} $ $\frac{2}{3} $ \\
-        \verb!!            & \verb!Irrationale Zahlen = Nachkommastellen! & \verb!0.3281!                                \\
+        $\mathbb{N}$       & \verb!Natürliche Zahlen = ganze Positive!    & \verb!{1;2;3;}!                              \\ \hline
+        ${\mathbb{N}}_{0}$ & \verb!Natürliche Zahlen mit 0!               & \verb!{0;1;2;}!                              \\ \hline
+        $\mathbb{Z}$       & \verb!Ganze Zahlen = N + ganze Negative!     & \verb!{-1;0;1;}!                             \\ \hline
+        $\mathbb{Q}$       & \verb!Rationale Zahlen = Bruchzahlen!        & $\frac{3}{7} $ $\frac{5}{9} $ $\frac{2}{3} $ \\ \hline
+        \verb!!            & \verb!Irrationale Zahlen = Nachkommastellen! & \verb!0.3281!                                \\ \hline
         $\mathbb{R}$       & \verb!Reele Zahlen = Q + Irrationale Zahlen! & \verb!Alle!                                  \\
     \end{tabular}
 
     \subsection{Mengen Operationen}
     \begin{tabular}{l|l}
         \textbf{*}                   & \textbf{Bedeutung}                               \\ \hline
-        $\varnothing$ oder \verb!{}! & \verb!Leere Menge, enthält keine Elemente!       \\
-        $x\in A$                     & \verb!Beschreibt Element x ist in Menge A!       \\
-        $x\notin A$                  & \verb!Beschreibt Element x ist nicht in Menge A! \\
-        $A\subset B$                 & \verb!A ist eine Teilmenge von B!                \\
-        $A\cap B$                    & \verb!Schnittmenge von A und B!                  \\
-        $A\cup B$                    & \verb!Vereinigunsgsmenge von A und B!            \\
+        $\varnothing$ oder \verb!{}! & \verb!Leere Menge, enthält keine Elemente!       \\ \hline
+        $x\in A$                     & \verb!Beschreibt Element x ist in Menge A!       \\ \hline
+        $x\notin A$                  & \verb!Beschreibt Element x ist nicht in Menge A! \\ \hline
+        $A\subset B$                 & \verb!A ist eine Teilmenge von B!                \\ \hline
+        $A\cap B$                    & \verb!Schnittmenge von A und B!                  \\ \hline
+        $A\cup B$                    & \verb!Vereinigunsgsmenge von A und B!            \\ \hline
         $A\backslash B$              & \verb!Differenzbildung, Menge von A ohne B!      \\
     \end{tabular}
     \def\firstcircle{(0,0) circle (1cm)}
@@ -144,16 +145,36 @@
     \end{tikzpicture}
 
     \subsection{Aussagenlogik}
+    \textbf{Term:}  Ein Term ist eine sinnvolle Zusammensetzung von Zahlen,
+    Variablen, Operationszeichen und Klammern.
+    Ein Term hat keinen Wahrheitsgehalt, ist also weder wahr noch falsch. \\[2mm]
+    \textbf{Aussage:}
+    Eine Aussage beschreibt durch Worte oder Zeichen einen Sachverhalt.
+    Eine Aussage ist entweder wahr oder falsch. \\[2mm]
+    \textbf{Aussageform:}
+    Jeder sprachliche oder zeichensymbolische Ausdruck mit wenigstens einer Variablen
+    wenn er durch jede sinnvolle Belegung der Variablen jeweils eine Aussage wird.
     \begin{tabular}{l|l|l}
-        \textbf{*}         & \textbf{Bedeutung}                           & \textbf{Beispiel}                            \\ \hline
-        $\mathbb{N}$       & \verb!Natürliche Zahlen = ganze Positive!    & \verb!{1;2;3;}!                              \\
-        ${\mathbb{N}}_{0}$ & \verb!Natürliche Zahlen mit 0!               & \verb!{0;1;2;}!                              \\
-        $\mathbb{Z}$       & \verb!Ganze Zahlen = N + ganze Negative!     & \verb!{-1;0;1;}!                             \\
-        $\mathbb{Q}$       & \verb!Rationale Zahlen = Bruchzahlen!        & $\frac{3}{7} $ $\frac{5}{9} $ $\frac{2}{3} $ \\
-        \verb!!            & \verb!Irrationale Zahlen = Nachkommastellen! & \verb!0.3281!                                \\
-        $\mathbb{R}$       & \verb!Reele Zahlen = Q + Irrationale Zahlen! & \verb!Alle!                                  \\
+        \textbf{*}         & \textbf{Bedeutung}                         & \textbf{Beispiel}                            \\ \hline
+        \verb!|A| !        & \verb!Kardinalität/Mächtigkeit beschreibt! & \verb!A = {1;2}!                             \\
+                           & \verb!Anzahl Elemente einer Menge!         & \verb!|A| = 2!                               \\ \hline
+        ${\mathbb{N}}_{0}$ & \verb!Natürliche Zahlen mit 0!             & \verb!{0;1;2;}!                              \\\hline
+        $\mathbb{Z}$       & \verb!Ganze Zahlen = N + ganze Negative!   & \verb!{-1;0;1;}!                             \\\hline
+        $\mathbb{Q}$       & \verb!Rationale Zahlen = Bruchzahlen!      & $\frac{3}{7} $ $\frac{5}{9} $ $\frac{2}{3} $ \\\hline
     \end{tabular}
-    \section{What is \LaTeX?}
+
+    \begin{tabular}{@{ }c@{ }@{ }c | c@{ }@{ }c@{ }@{ }c@{ }@{ }c@{ }@{ }c | c@{ }@{ }c@{ }@{ }c@{ }@{ }c@{ }@{ }c | c@{ }@{ }c | c@{ }@{ }c@{ }@{ }c@{ }@{ }c@{ }@{ }c@{ }@{ }c}
+        A & B &  & A & $\land$            & B &  &  & A & $\lor$             & B &  & $\lnot$            & B &  & A & $\lor$             & $\lnot$ & B & \\
+        \hline
+        T & T &  & T & \textcolor{red}{T} & T &  &  & T & \textcolor{red}{T} & T &  & \textcolor{red}{F} & T &  & T & \textcolor{red}{T} & F       & T & \\
+        T & F &  & T & \textcolor{red}{F} & F &  &  & T & \textcolor{red}{T} & F &  & \textcolor{red}{T} & F &  & T & \textcolor{red}{T} & T       & F & \\
+        F & T &  & F & \textcolor{red}{F} & T &  &  & F & \textcolor{red}{T} & T &  & \textcolor{red}{F} & T &  & F & \textcolor{red}{F} & F       & T & \\
+        F & F &  & F & \textcolor{red}{F} & F &  &  & F & \textcolor{red}{F} & F &  & \textcolor{red}{T} & F &  & F & \textcolor{red}{T} & T       & F & \\
+    \end{tabular}
+
+    \subsection{Summe und Produkte}
+
+    \section{Funktionen}
     \LaTeX (usually pronounced ``LAY teck,'' sometimes ``LAH teck,'' and never ``LAY tex'') is a mathematics typesetting program that is the standard for most professional mathematics writing. It is based on the typesetting program \TeX\ created by Donald Knuth of Stanford University (his first version appeared in 1978). Leslie Lamport was responsible for creating \LaTeX\, a more user friendly version of \TeX. A team of \LaTeX\ programmers created the current version,  \LaTeX\ 2$\varepsilon$.
 
     \section{Math vs. text vs. functions}
