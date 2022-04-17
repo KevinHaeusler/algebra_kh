@@ -34,6 +34,8 @@
 \usepackage{xcolor}
 \usepackage{cancel}
 \usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage[landscape]{geometry}
 \usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
 
@@ -434,10 +436,335 @@
     $x_2 = 8$ ist offensichtlich nur eine Scheinlösung. \\~\\
     \textbf{Schritt 4 Lösungsmenge aufschreiben}\\
     $\mathbb{L} = \{2\}$
+    \subsection{Exponential­gleichungen}
+    Eine Exponentialgleichung ist eine Gleichung, in der die Variable im Exponenten einer Potenz steht. \\~\\
+    \textbf{Lösung durch Logarithmieren Beispiel 1}\\~\\
+    \[a^{f(x)} = b^{g(x)} \quad \Rightarrow \quad f(x) \cdot \log a = g(x) \cdot \log b\]\\~\\
+    Löse $2^x = 9$.\\
+    \begin{align*} 2^x &= 9 &&{\color{orange}| \text{ Logarithmieren}} \\[5px] \log 2^x &= \log 9 &&{\color{gray}| \text{ Exponent vorziehen}} \\[5px] x \cdot \log 2 &= \log 9 &&{\color{gray}|\, :\log 2} \\[5px] x &= \frac{\log 9}{\log 2} &&{\color{gray}| \text{ Taschenrechner!}} \\[5px] x &\approx 3{,}1699 && \Rightarrow \mathbb{L} = \{3{,}1699\} \end{align*}
+    \textbf{Lösung durch Logarithmieren Beispiel 2}\\~\\
+    \[a^{f(x)} = b^{g(x)} \quad \Rightarrow \quad f(x) \cdot \log a = g(x) \cdot \log b\]\\~\\
+    Löse $2^{x+3} = 3^x$. \\
+    \begin{align*} 2^{x+3} &= 3^x &&{\color{orange}| \text{ Logarithmieren}} \\[5px] \log 2^{x+3} &= \log 3^x &&{\color{gray}| \text{ Exponent vorziehen}} \\[5px] (x+3) \cdot \log 2 &= x \cdot \log 3 &&{\color{gray}| \text{ Klammer ausmulti}} \\[5px] x \cdot \log 2 + 3 \cdot \log 2 &= x \cdot \log 3 &&{\color{gray}|\, -(x \cdot \log 2)} \\[5px] 3 \cdot \log 2 &= x \cdot \log 3 - x \cdot \log 2 &&{\color{gray}|\, x \text{ ausklammern}} \\[5px] 3 \cdot \log 2 &= x \cdot (\log 3 - \log 2) &&{\color{gray}|\, : (\log 3 - \log 2)} \\[5px] x &= \frac{3 \cdot \log 2}{\log 3 - \log 2} &&{\color{gray}| \text{ Taschenrechner!}} \\[5px] x &\approx 5{,}1285 && \Rightarrow \mathbb{L} = \{5{,}1285\} \end{align*}
+    \subsection{Logarithmus­gleichungen}
+    Eine Logarithmusgleichung ist eine Gleichung, in der die Variable im Numerus des Logarithmus steht. \\~\\
+    \textbf{Lösung mithilfe der Definition des Logarithmus}\\~\\
+    Eine Lösung mithilfe der Definition des Logarithmus ist nur dann möglich, wenn es gelingt, die Terme auf beiden Seiten der Gleichung so umzuformen, dass sich auf der einen Seite ein Logarithmus und auf der anderen Seite eine Konstante ergeben.
+    \begin{align*} \log_{2}x &= 3 &&{\color{orange}| \text{ Anwendung der Definition des Logarithmus}} \\[5px] x &= 2^3 &&{\color{gray}| \text{ Potenz ausrechnen}} \\[5px] x &= 8 && \Rightarrow \mathbb{L} = \{8\} \end{align*}
+    \begin{align*} 2 \cdot \log_{4}x &= 2 &&{\color{gray}|\, :2} \\[5px] \log_{4}x &= 1 &&{\color{orange}| \text{ Anwendung der Definition des Logarithmus}} \\[5px] x &= 4^1 &&{\color{gray}| \text{ Potenz ausrechnen}} \\[5px] x &= 4 && \Rightarrow \mathbb{L} = \{4\} \end{align*}
+    \begin{align*} \log_{3}9 + \log_{3}x &= 4 &&{\color{gray}| \text{ Logarithmen zusammenfassen}} \\[5px] \log_{3}9x &= 4 &&{\color{orange}| \text{ Anwendung der Definition des Logarithmus}} \\[5px] 9x &= 3^4 &&{\color{gray}| \text{ Potenz ausrechnen}} \\[5px] 9x &= 81 &&{\color{gray}|\, :9} \\[5px] x &= 9 && \Rightarrow \mathbb{L} = \{9\} \end{align*}\\~\\
+    \textbf{Definitionsmenge einer Logarithmusgleichung }\\~\\
+    Da $\log_{b}x = a$  nur für $x > 0$ definiert ist, kann die Definitionsmenge eingeschränkt sein.
+
+    In der Praxis bedeutet das, dass wir stets die Probe machen sollten, d.h. überprüfen, ob die berechneten Lösungen eingesetzt in die gegebene Gleichung zu einer wahren Aussage führen.\\~\\
+    \begin{align*} 2 \cdot \log_{7}x &= \log_{7}16 &&{\color{gray}|\text{ Faktor beseitigen}} \\[5px] \log_{7}x^2 &= \log_{7}16 &&{\color{orange}|\text{ Numerivergleich}} \\[5px] x^2 &= 16 &&{\color{gray}|\text{ Wurzel ziehen}} \\[5px] x &= \pm \sqrt{16} &&{\color{gray}|\text{ Wurzel berechnen}} \\[5px] x &= \pm 4 \\[5px] \end{align*}
+    Als Lösungen erhalten wir $x_1 = -4$ und $x_2 = +4$.\\~\\
+
+    Da $\log_{b}x = a$ nur für $x > 0$ definiert ist, ist $x_1 = -4$ nur eine \textbf{Scheinlösung.}\\~\\
+
+    Die einzige Lösung der Logarithmusgleichung ist $x_2 = 4$:\\
+    \[\Rightarrow \mathbb{L} = \{4\}\]
+    \section{Lineare Gleichungs­systeme}
+    Mehrere lineare Gleichungen, die alle zusammen gelten sollen, bilden ein lineares Gleichungssystem.\\
+    \subsection{Gleichsetzungsverfahren}
+    \begin{enumerate}
+        \item Gleichungen nach der gleichen Variable auflösen
+        \item Gleichungen gleichsetzen
+        \item Gleichung nach der enthaltenen Variable auflösen
+        \item Berechneten Wert in eine der umgeformten Gleichungen aus Schritt 1 einsetzen und zweiten Wert berechnen
+        \item Lösungsmenge aufschreiben
+    \end{enumerate}
+    \textbf{Beispiel LGS mit Gleichsetzungsverfahren}\\~\\
+    \begin{align*} 2x + 3y &= 14 \\ x + 2y &= 8 \end{align*}
+    \textbf{Schritt 1 Gleichungen nach der gleichen Variable auflösen}\\~\\
+    Wir entscheiden uns dafür, die Gleichungen nach x aufzulösen. \\
+    1. Gleichung:
+    \[2x + 3y = 14 \qquad |\, {\color{red}-3y}\]
+    \[2x + 3y {\color{red}\: - \: 3y} = 14 {\color{red}\: - \: 3y}\]
+    \[2x = 14 - 3y \qquad |\, :{\color{orange}2}\]
+    \[\frac{2x}{{\color{orange}2}} = \frac{14 - 3y}{{\color{orange}2}}\]
+    \[{\colorbox{yellow}{$x = 7 - 1{,}5y$}}\]
+    2. Gleichung:
+    \[x + 2y = 8 \qquad |\, {\color{red}-2y}\]
+    \[x + 2y {\color{red}\: - \: 2y} = 8 {\color{red}\: - \: 2y}\]
+    \[{\colorbox{orange}{$x = 8 - 2y$}}\]
+    \textbf{Schritt 2 Gleichungen gleichsetzen}\\~\\
+    Es gilt ${\colorbox{yellow}{$x$}} = {\colorbox{orange}{$x$}}$ bzw. ${\colorbox{yellow}{$7 - 1{,}5y$}} = {\colorbox{orange}{$8 - 2y$}}$\\~\\
+    \textbf{Schritt 3 Gleichung nach der enthaltenen Variable auflösen}\\~\\
+    Wir lösen die Gleichung nach y auf
+    \[7 - 1{,}5y = 8 - 2y \qquad |\, {\color{red}+2y}\]
+    \[7 - 1{,}5y {\color{red} \: + \: 2y} = 8 - 2y {\color{red}\: + \: 2y}\]
+    \[7 + 0{,}5y = 8 \qquad |\, {\color{orange}-7}\]
+    \[7 {\color{orange} \: - \: 7} + 0{,}5y = 8 {\color{orange}\: - \: 7}\]
+    \[0{,}5y = 1 \qquad |\, :{\color{red}0{,}5}\]
+    \[\frac{0{,}5y}{{\color{red}0{,}5}} = \frac{1}{{\color{red}0{,}5}}\]
+    \[y = 2\]
+    \textbf{Schritt 4 Berechneten Wert in eine der umgeformten Gleichungen aus Schritt 1 einsetzen und zweiten Wert berechnen}\\~\\
+    Wenn $y = 2$ wir entweder in die Gleichung ${\colorbox{yellow}{$x = 7 - 1{,}5y$}}$ oder in die Gleichung ${\colorbox{orange}{$x = 8 - 2y$}}$  einsetzen, so erhalten wir den zweiten Wert $x = 4$ \\~\\
+    \textbf{Schritt 5 Lösungsmenge aufschreiben}
+    \[\mathbb{L} = \{(4|2)\}\]
+    \subsection{Einsetzungsverfahren}
+    \begin{enumerate}
+        \item     Eine Gleichung nach einer Variable auflösen
+        \item     Berechneten Term für diese Variable in die andere Gleichung einsetzen
+        \item     Gleichung nach der enthaltenen Variable auflösen
+        \item     Berechneten Wert in die umgeformte Gleichung aus Schritt 1 einsetzen und zweiten Wert berechnen
+        \item     Lösungsmenge aufschreiben
+    \end{enumerate}
+    \textbf{Beispiel LGS mit Einsetzugnsverfahren}\\~\\
+    \begin{align*} 2x + 3y &= 14 \\ x + 2y &= 8 \end{align*}
+    \textbf{Schritt 1 Eine Gleichung nach einer Variable auflösen}\\~\\
+    Wir entscheiden uns dafür, die 2. Gleichung nach x aufzulösen, da wir dafür nur 2y subtrahieren müssen.
+    \[x + 2y = 8 \qquad |\, {\color{red}-2y}\]
+    \[x + 2y {\color{red}\: - \: 2y} = 8 {\color{red}\: - \: 2y}\]
+    \[x = {\colorbox{yellow}{$8 - 2y$}}\]
+    \textbf{Schritt 2 Berechneten Term für diese Variable in die andere Gleichung einsetzen}\\~\\
+    Wir setzen $x = {\colorbox{yellow}{$8 - 2y$}}$ in die 1. Gleichung
+    \[2x + 3y = 14\]
+    ein und erhalten
+    \[2 \cdot ({\colorbox{yellow}{$8 - 2y$}}) + 3y = 14\]
+    \textbf{Schritt 3 Gleichung nach der enthaltenen Variable auflösen}\\~\\
+    Wir lösen die Gleichung nach y auf
+    \[2 \cdot (8 - 2y) + 3y = 14\]
+    \[16 - 4y + 3y = 14\]
+    \[16 - y = 14 \qquad |\, {\color{red}-16}\]
+    \[16 {\color{red}\: - \: 16} - y = 14 {\color{red}\: - \: 16}\]
+    \[-y = -2 \qquad |\, {\color{orange}\cdot (-1)}\]
+    \[-y {\color{orange}\: \cdot \: (-1)} = -2 {\color{orange} \: \cdot \: (-1)}\]
+    \[y = 2\]
+    \textbf{Schritt 4 Berechneten Wert in die umgeformte Gleichung aus Schritt 1 einsetzen und zweiten Wert berechnen}\\~\\
+    Die umgeformte Gleichung aus Schritt 1 ist
+    \[{\colorbox{yellow}{$x = 8 - 2y$}}\]
+    In diese Gleichung setzen wir $y = 2$ ein
+    \[x = 8 - 2 \cdot 2\]
+    \[x = 4\]
+    \textbf{Schritt 5 Lösungsmenge aufschreiben}\\~\\
+    \[\mathbb{L} = \{(4|2)\}\]
+    \subsection{Additions­verfahren}
+    \begin{enumerate}
+        \item     Gleichungen so umformen, dass die Koeffizienten einer Variablen Gegenzahlen werden
+        \item     Gleichungen addieren
+        \item     Gleichung nach der enthaltenen Variable auflösen
+        \item     Berechneten Wert in eine der ursprünglichen Gleichungen einsetzen und zweiten Wert berechnen
+        \item     Lösungsmenge aufschreiben
+    \end{enumerate}
+    Damit die Koeffizienten der Variablen Gegenzahlen werden, bilden wir das kleinste gemeinsame Vielfache (kgV) der Koeffizienten und formen die Gleichungen anschließend entsprechend um.
+    \textbf{Beispiel LGS mit Additionsverfahren}\\~\\
+    \begin{align*} 2x + 3y &= 14 \\ x + 2y &= 8 \end{align*}
+    \textbf{Schritt 1 Gleichungen so umformen, dass die Koeffizienten einer Variablen Gegenzahlen werden}\\~\\
+    Wir entscheiden uns dafür, die Koeffizienten der Variable x zu Gegenzahlen zu machen. Dazu bilden wir das kleinste gemeinsame Vielfache (kgV) der Koeffizienten von x:
+    \[\text{kgV}(1;2) = 2\]
+    Damit in einer Gleichung eine 2 und in der anderen Gleichung eine -2 vor dem x steht, müssen wir lediglich die 2. Gleichung mit -2 multiplizieren:
+    \begin{align*} 2x + 3y &= 14 \\ x + 2y &= 8 \qquad |\, \cdot (-2) \end{align*}
+    \begin{align*} 2x + 3y &= 14 \\ -2x - 4y &= -16 \end{align*}
+    \newpage
+    \textbf{Schritt 2 Gleichungen addieren}\\~\\
+    Jetzt addieren wir die beiden Gleichungen, wodurch die Variable x eliminiert wird. Übrig bleibt:
+    \[-y = -2\]
+    \textbf{Schritt 3 Gleichung nach der enthaltenen Variable auflösen}\\~\\
+    Wir lösen die eben berechnete Gleichung nach auf, indem wir mit -1 multiplizieren:
+    \[-y = -2 \qquad |\, {\color{orange}\cdot (-1)}\]
+    \[-y {\color{orange} \: \cdot \: (-1)} = -2 {\color{orange} \: \cdot \: (-1)}\]
+    \[y = 2\]
+    \textbf{Schritt 4 Berechneten Wert in eine der ursprünglichen Gleichungen einsetzen und zweiten Wert berechnen}\\~\\
+    Wir setzen y=2 in eine der beiden ursprünglichen Gleichungen ein, um x zu berechnen:
+    \begin{align*} 2x + 3 \cdot 2 &= 14 \\ x + 2 \cdot 2 &= 8 \end{align*}
+    Unabhängig davon, welche der beiden Gleichungen wir nach x auflösen, das Ergebnis ist dasselbe:
+    \[x = 4\]
+    \textbf{Schritt 5 Lösungsmenge aufschreiben}\\~\\
+    \[\mathbb{L} = \{(4|2)\}\]
+    \section{Ungleichungen}
+    Eine Ungleichung ist ein mathematischer Ausdruck, der aus zwei Termen besteht, die durch eines der Vergleichszeichen < (Kleinerzeichen), $\leq$ (Kleinergleichzeichen),
+    > (Größerzeichen) oder $\geq$ (Größergleichzeichen) verbunden sind.
+    \subsection{Lineare Ungleichungen}
+    \begin{enumerate}
+        \item Ungleichung nach x auflösen
+        \item Lösungsmenge aufschreiben
+    \end{enumerate}
+    \begin{itemize}
+        \item Terme auf beiden Seiten der Ungleichung zusammenfassen
+        \item Denselben Term auf beiden Seiten der Ungleichung addieren/subtrahieren
+        \item Beide Seiten der Ungleichung mit derselben positiven* Zahl multiplizieren
+        \item Beide Seiten der Ungleichung durch dieselbe positive* Zahl dividieren
+    \end{itemize}
+    * Bei der Multiplikation bzw. Division mit einer negativen Zahl müssen wir das Ungleichungszeichen umdrehen.\\~\\
+    \textbf{Beispiel:}\\~\\
+    \[x - 3 \leq 3 (x-1) + 5\]
+    \textbf{Schritt 1 Ungleichung nach x auflösen}\\
+    \[x - 3 \leq {\color{red}3} (x-1) + 5\]
+    \[x - 3 \leq {\color{red}3} \cdot x + {\color{red}3} \cdot (-1) + 5\]
+    \[x - 3 \leq 3x - 3 + 5\]
+    zusammenfassen
+    \[x - 3 \leq 3x + 2\]
+    Ungleichung nach x auflösen
+    \[x {\color{red}\:-\:3x} - 3 \leq 3x {\color{red}\:-\:3x} + 2\]
+    \[-2x - 3 \leq 2\]
+    \[-2x - 3 {\color{red}\:+\:3} \leq 2 {\color{red}\:+\:3}\]
+    \[-2x \leq 5\]
+    Um die Lösung zu erhalten, müssen wir durch -2 dividieren.
+    Zur Erinnerung: Bei der Division durch eine negative Zahl dreht sich das Ungleichheitszeichen um!
+    \[\frac{-2x}{{\color{red}-2}} \geq \frac{5}{{\color{red}-2}}\]
+    \[x \geq \frac{5}{-2}\]
+    oder in Dezimalschreibweise
+    \[x \geq -2{,}5\]
+    \textbf{Schritt 2 Lösungsmenge aufschreiben}\\
+    \[\mathbb{L} = \left[-2{,}5;\infty\right[\]
+    \section{Funktionen}
+    Eine Funktion $f$ ist eine Zuordnung, bei der jedem Element x der Definitionsmenge D genau ein Element y der Wertemenge W zugeordnet ist.
+    \begin{tabular}{l|l}
+        \textbf{Symbol}     & \textbf{Bedeutung}                         \\ \hline
+        $f$                 & Name der Funktion                          \\ \hline
+        $x$                 & Argument, x-Wert, unabhängige Variable     \\  \hline
+        $y$                 & Funktionswert, y-Wert, abhängige Variable  \\  \hline
+        $y = f(x)$          & Funktionsgleichung, Zuordnungsvorschrift*! \\ \hline
+        D oder $\mathbb{D}$ & Definitionsmenge, Definitionsbereich       \\  \hline
+        W oder$\mathbb{W}$  & Wertemenge, Wertebereich                   \\  \hline
+    \end{tabular}
+    \subsection{Lineare Funktionen}
+    Eine Funktion $f$ mit der Funktionsgleichung $f(x) = mx + n$ heisst lineare Funktion. \\
+    Wegen $y = f(x)$ können wir statt $f(x) = mx + n$ auch $y = mx + n$ schreiben:
+    \begin{itemize}
+        \item $y$: Abhängige Variable, y-Wert, Funktionswert
+        \item $m$: Steigung
+        \item  $x$: Unabhängige Variable, x-Wert, (Funktions-)Argument
+        \item $n$ : y-Achsenabschnitt
+    \end{itemize}
+    Wenn wir den y-Achsenabschnitt n in $f(x) = mx + n$ verändern, passiert Folgendes:
+    \begin{itemize}
+        \item Gilt $n > 0$, ist die Gerade nach oben verschoben.
+        \item Gilt $n < 0$ , ist die Gerade nach unten verschoben.
+    \end{itemize}
+
+    \begin{tikzpicture}%[scale=1.0]
+        \begin{axis}[
+                xlabel=$x$,
+                ylabel=$y$,
+                xmax=5,
+                xmin=-5,
+                ymax=5,
+                ymin=-5,
+                axis x line=middle,
+                axis y line=middle,
+                legend style={at={(0.5,-0.1)},
+                        anchor=north,legend columns=-1},
+                grid=major,
+                grid style={line width=.1pt, draw=gray!10},
+                major grid style={line width=.2pt,draw=gray!50},
+                xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+                ytick={-5,-4,-3,-2,-1,0,1,2,3,4,5}
+            ]
+            \addplot [blue] {x};
+            \addlegendentry {x};
+            \addplot [red] {x+2};
+            \addlegendentry {x+2};
+            \addplot [green] {x-2};
+            \addlegendentry {x - 2};
+        \end{axis}
+    \end{tikzpicture}\\~\\
+    Wenn wir die Steigungt m in $f(x) = mx + n$ verändern, passiert Folgendes:
+    \begin{itemize}
+        \item Gilt $m > 0$, steigt die Gerade.
+        \item Gilt $m < 0$ , fällt die Gerade.
+    \end{itemize}
+
+    \begin{tikzpicture}%[scale=1.0]
+        \begin{axis}[
+                xlabel=$x$,
+                ylabel=$y$,
+                xmax=5,
+                xmin=-5,
+                ymax=5,
+                ymin=-5,
+                axis x line=middle,
+                axis y line=middle,
+                legend style={at={(0.5,-0.1)},
+                        anchor=north,legend columns=-1},
+                grid=major,
+                grid style={line width=.1pt, draw=gray!10},
+                major grid style={line width=.2pt,draw=gray!50},
+                xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+                ytick={-5,-4,-3,-2,-1,0,1,2,3,4,5}
+            ]
+            \addplot [blue] {x*2};
+            \addlegendentry {2x};
+            \addplot [red] {x*-2};
+            \addlegendentry {-2x};
+        \end{axis}
+    \end{tikzpicture}
+    \subsubsection{Nulltstelle berechnen}
+    Berechne die Nullstelle der linearen Funktion  $y = 3x + 3$. \\~\\
+    Wir setzen die Funktion gleich Null, d.h. wir setzen für den y Wert 0 ein: ${\color{red}{0}} = 3x + 3$ \\~\\
+
+    Jetzt müssen wir die Gleichung nach x auflösen, um die gesuchte Nullstelle zu finden:
+    \begin{align*} &3x + 3 = 0 &&|\, {\color{red}{\: - \: 3}} \\[5px] &3x + 3 {\color{red}{\: - \: 3}} = {\color{red}{\: - \: 3}} \\[5px] &3x = -3 &&|\, :{\color{red}{3}} \\[5px] &\frac{3x}{{\color{red}{3}}} = \frac{-3}{{\color{red}{3}}} \\[5px] &{\fcolorbox{red}{red}{$x = -1$}} \end{align*}
+    \subsubsection{Steigung berechnen}
+    Wir lesen zwei beliebige Punkte ab:
+    \[P_0({\color{blue}0}|{\color{red}1}) \text{ und } P_1({\color{blue}4}|{\color{red}3})\]
+    und setzen sie in die Steigungsformel ein:
+    \begin{align*} m &= \frac{y_1 - y_0}{x_1 - x_0} \\[5px] &= \frac{{\color{red}3} - ({\color{red}1})}{{\color{blue}4} - {\color{blue}0}}\\[5px] &= \frac{2}{4} \\[5px] &= \frac{1}{2} \end{align*}
+    \subsubsection{Schnittpunkt berechnen}
+    Ein Schnittpunkt existiert nur, wenn die beiden gegebenen Geraden eine unterschiedliche Steigung besitzen.
+    \[g\colon~y = {\color{red}2}x + 1\]
+    \[h\colon~y = {\color{red}2}x + 3\]
+    Die Geraden besitzen dieselbe Steigung. \textbf{Es existiert kein Schnittpunkt}.
+    \begin{enumerate}
+        \item Funktionsgleichungen gleichsetzen
+        \item Gleichung nach x auflösen
+        \item x in eine der beiden Funktionsgleichungen einsetzen, um y zu berechnen
+        \item Ergebnis aufschreiben
+    \end{enumerate}
+    Berechne den Schnittpunkt der beiden Geraden $y = \frac{1}{2}x - 1$ und $y = -2x - 6$.\\~\\
+    \textbf{Schritt 1 Funktionsgleichungen gleichsetzen:}\\~\\
+    \[\frac{1}{2}x - 1 = -2x - 6\]
+    \textbf{Schritt 2 Gleichung nach x auflösen:}\\~\\
+    \begin{align*} \frac{1}{2}x - 1 &= -2x - 6 &&|\, {\color{red}+2x} \\[5px] \frac{1}{2}x {\color{red}\: + \: 2x} - 1 &= -2x {\color{red}\: + \: 2x} - 6 \\[5px] 2{,}5x - 1 &= - 6 &&|\, {\color{orange}+1} \\[5px] 2{,}5x - 1 {\color{orange}\: + \: 1} &= - 6 {\color{orange}\: + \: 1} \\[5px] 2{,}5x &= -5 &&|\, {\color{red}:2{,}5} \\[5px] \frac{2{,}5x}{{\color{red}2{,}5}} &= \frac{-5}{{\color{red}2{,}5}} \\[5px] x &= {\colorbox{yellow}{$-2$}} \end{align*}
+    \textbf{Schritt 3 x in eine der beiden Funktionsgleichungen einsetzen, um y zu berechnen:}\\~\\
+    Wir setzen x = -2 in die erste Gleichung ein:
+    \begin{align*} y &= \frac{1}{2}x - 1 \\[5px] &= \frac{1}{2} \cdot (-2) - 1 \\[5px] &= {\colorbox{orange}{$-2$}} \end{align*}
+    \textbf{Schritt 4 Ergebnis aufschreiben:}\\~\\
+    Die beiden Geraden schneiden sich im Punkt $S({\colorbox{yellow}{$-2$}}|{\colorbox{orange}{$-2$}})$
+    \subsubsection{Umkehrfunktion bilden}
+    \begin{enumerate}
+        \item Funktionsgleichung nach x auflösen
+        \item x und y vertauschen
+    \end{enumerate}
+    Bilde die Umkehrfunktion von $f\colon\; y = 2x + 1$.\\~\\
+    \textbf{Schritt 1 Funktionsgleichung nach x auflösen:}
+    \begin{align*} y &= 2x + 1 &&{\color{gray}|\, -1} \\[5px] y - 1 &= 2x &&{\color{gray}|\, :2} \\[5px] \frac{1}{2}y - \frac{1}{2} &= x &&{\color{gray}| \text{ Seiten vertauschen}} \\[5px] x &= \frac{1}{2}y - \frac{1}{2} \end{align*}
+    \textbf{Schritt 2 x und y vertauschen:}\\~\\
+    \[ y = \frac{1}{2}x - \frac{1}{2}\]
+    Die Umkehrfunktion der Funktion $f\colon\; y = 2x + 1$ ist $f^{-1}\colon\; y = 0{,}5x - 0{,}5$.\\~\\
+    Um die Graphen von $f$ und $f^{-1}$ ordentlich zu zeichnen, fertigen wir zwei Wertetabellen an.
+    \[\phantom{^{-1}}f\colon\; \begin{array}{r|c|c|c|c|c} x & -2 & -1 & 0 & 1 & 2 \\ \hline y & -3 & -1 & 1 & 3 & 5 \end{array}\]
+    Die Wertetabelle von $f^{-1}$ erhält man durch Vertauschen der Zeilen der Wertetabelle von  $f$.
+    \[f^{-1}\colon\; \begin{array}{r|c|c|c|c|c} x & -3 & -1 & 1 & 3 & 5 \\ \hline y & -2 & -1 & 0 & 1 & 2 \end{array}\]
 
 
 
-
+    \begin{tikzpicture}%[scale=1.0]
+        \begin{axis}[
+                xlabel=$x$,
+                ylabel=$y$,
+                xmax=5,
+                xmin=-5,
+                ymax=5,
+                ymin=-5,
+                axis x line=middle,
+                axis y line=middle,
+                legend style={at={(0.5,-0.1)},
+                        anchor=north,legend columns=-1},
+                grid=major,
+                grid style={line width=.1pt, draw=gray!10},
+                major grid style={line width=.2pt,draw=gray!50},
+                xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+                ytick={-5,-4,-3,-2,-1,0,1,2,3,4,5}
+            ]
+            \addplot [blue] {x*2+1};
+            \addlegendentry {2x + 1};
+            \addplot [red] {x*0.5-0.5};
+            \addlegendentry {0.5x - 0.5};
+        \end{axis}
+    \end{tikzpicture}
     \LaTeX (usually pronounced ``LAY teck,'' sometimes ``LAH teck,'' and never ``LAY tex'') is a mathematics typesetting program that is the standard for most professional mathematics writing. It is based on the typesetting program \TeX\ created by Donald Knuth of Stanford University (his first version appeared in 1978). Leslie Lamport was responsible for creating \LaTeX\, a more user friendly version of \TeX. A team of \LaTeX\ programmers created the current version,  \LaTeX\ 2$\varepsilon$.
 
     \section{Math vs. text vs. functions}
