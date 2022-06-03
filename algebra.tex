@@ -286,6 +286,18 @@
     \vspace{-4mm}
     Betragsgleichungen lassen sich durch Fallunterscheidung loesen.
 
+    \subsubsection{Eigenschaften und Rechenregeln}
+    \vspace{-4mm}
+    Fuer alle $a, b \in \mathbb{R}$ gilt: \\
+    $|x| \geq 0$ Betraege sind nicht negativ! \\
+    $|x| = 0 \Leftrightarrow x = 0$ \\
+    $|a \cdot b| = |a| \cdot |b|$ daraus folgt: $|a^n| = |a|^n$ fuer $n \in \mathbb{N}$ \\
+    $|\frac{a}{b}| = \frac{|a|}{|b|}$ fuer $b \neq 0$  daraus folgt: $|\frac{1}{a^n}| = \frac{1}{|a|^n}$ fuer $n \in \mathbb{N}$ $a \neq 0$ \\
+    $ |a+b| \leq |a| + |b|$ Dreiecksungleichung
+
+    \subsubsection{Loesen einer Betragsgleichung}
+    \vspace{-4mm}
+
     \begin{equation*} |a| = \begin{cases} a &\text{fuer } a \geq 0 \\[5px] -a &\text{fuer } a < 0 \end{cases} \end{equation*}\\~\\
     Aus der Definition des Betrags ergeben sich folgende zwei Faelle: \\
     \begin{itemize}
@@ -329,6 +341,16 @@
         \item Wenn n gerade ist, gilt: $\sqrt[n]{x^n} = |x|$.
         \item Wenn n ungerade ist, gilt: $\sqrt[n]{x^n} = x$.
     \end{itemize}
+    \subsubsection{Potenzgesetze}
+    \vspace{-4mm}
+    Multiplikation mit gleicher Basis = $x^a \cdot x^b = x^{a+b}$ \\
+    Division mit gleicher Basis = $x^a : x^b = \frac{x^a}{x^b} = x^{a-b}$ \\
+    Potenzen potenzieren = $\left(x^a\right)^b = x^{a \cdot b}$ \\
+    Multiplikation mit gleichem Exponenten = $a^n \cdot b^n = \left(a \cdot b\right)^n$ \\
+    Division mit gleichem Exponenten = $a^n : b^n = \frac{a^n}{b^n} = \left(\frac{a}{b}\right)^n$ \\
+
+
+
     \subsubsection{Loesen einer Potenzgleichung}
     \vspace{-4mm}
     \textbf{Typ 1:  $x^n = a$ ($n \in \mathbb{N}$;$a \in \mathbb{R}$)} \\
@@ -360,6 +382,17 @@
     \subsection{Wurzelgleichung}
     \vspace{-4mm}
     Eine Wurzelgleichung ist eine Gleichung, bei der die Variable (auch) unter einer Wurzel vorkommt. \\
+    \subsubsection{Wurzel Gesetze}
+    \vspace{-4mm}
+    Wurzel Addieren = $a{\color{green}\sqrt[n]{x}} + b{\color{green}\sqrt[n]{x}} = (a + b){\color{green}\sqrt[n]{x}}$ \\
+    Wurzel Subtrahieren = $a {\color{green}\sqrt[n]{x}} - b{\color{green}\sqrt[n]{x}} = (a - b){\color{green}\sqrt[n]{x}}$ \\
+    Wurzel Multiplizieren = $\sqrt[{\color{green}n}]{a} \cdot \sqrt[{\color{green}n}]{b} = \sqrt[{\color{green}n}]{a \cdot b}$ \\
+    Wurzel Potenzieren = $(\sqrt[n]{a})^m = \sqrt[n]{a^m}$ \\
+    Wurzel Radizieren = $\sqrt[m]{\sqrt[n]{a}} = \sqrt[m \cdot n]{a}$ \\
+    Wurzel in Potenz umformen = $\sqrt[n]{a} = a^{\frac{1}{n}}$ oder $\sqrt[n]{a^m} = a^{\frac{m}{n}}$ \\
+    \subsubsection{Wurzelgleichung loesen}
+    \vspace{-4mm}
+
     \begin{enumerate}
         \item Wurzeln beseitigen
               \begin{enumerate}
@@ -904,14 +937,18 @@
     \subsubsection{Zusammenfassung der wichtigsten Eigenschaften}
     \vspace{-4mm}
     Potenzfunktionen mit positiven ganzzahligen Exponenten $\boldsymbol{f(x) = x^n}$ haben folgende Eigenschaften:
-    \begin{tabular}{l|l|l}
+    \begin{tabularx}{0.5\textwidth} {
+            | >{\raggedright\arraybackslash}X
+            | >{\raggedright\arraybackslash}X
+            | >{\raggedright\arraybackslash}X |}
+        \hline
                           & \textbf{n gerade}                 & \textbf{n ungerade}       \\ \hline
         Definitionsmenge  & $\mathbb{D} = \mathbb{R}$         & $\mathbb{D} = \mathbb{R}$ \\ \hline
         Wertemenge        & $\mathbb{W} = \mathbb{R}^{+}_{0}$ & $\mathbb{W} = \mathbb{R}$ \\ \hline
         Symmetrie         & achsensymmetrisch                 & punktsymetrisch           \\
                           & zur y-ache                        & zum K-Ursprung            \\ \hline
         Gemeinsame Punkte & $(-1,1)$,$(0|0)$,$(1|1)$          & $(-1,-1)$,$(0|0)$,$(1|1)$ \\ \hline
-    \end{tabular}
+    \end{tabularx}
     \subsection{Potenzfunktionen mit negativen Exponenten}
     \vspace{-4mm}
     Die Graphen von Potenzfunktionen heissen Hyperbeln n-ter Ordnung, wenn der Exponent negativ ist.
@@ -981,7 +1018,11 @@
     \subsubsection{Zusammenfassung der wichtigsten Eigenschaften}
     \vspace{-4mm}
     Potenzfunktionen mit negativen ganzzahligen Exponenten $\boldsymbol{f(x) = x^{-n}}$ haben folgende Eigenschaften:
-    \begin{tabular}{l|l|l}
+    \begin{tabularx}{0.5\textwidth} {
+            | >{\raggedright\arraybackslash}X
+            | >{\raggedright\arraybackslash}X
+            | >{\raggedright\arraybackslash}X |}
+        \hline
                           & \textbf{n gerade}                       & \textbf{n ungerade}                     \\ \hline
         Definitionsmenge  & $\mathbb{D} = \mathbb{R}\setminus\{0\}$ & $\mathbb{D} = \mathbb{R}\setminus\{0\}$ \\ \hline
         Wertemenge        & $\mathbb{W} = \mathbb{R}^{+}$           & $\mathbb{W} = \mathbb{R}\setminus\{0\}$ \\ \hline
@@ -989,7 +1030,7 @@
                           & zur y-ache                              & zum K-Ursprung                          \\ \hline
         Gemeinsame Punkte & $(-1,1)$,$(1|1)$                        & $(-1,-1)$,$(1|1)$                       \\ \hline
         Asymptoten        & x-Achse, y-Achse                        & x-Achse, y-Achse                        \\ \hline
-    \end{tabular}
+    \end{tabularx}
 
 
     \subsection{Wurzelfunktion}
