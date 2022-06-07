@@ -2,14 +2,15 @@
 %% Do not edit unless you really know what you are doing.
 \documentclass[english]{article}
 \usepackage{lmodern}
-\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[a4paper]{geometry}
 \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=0.5in,rmargin=0.5in}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
-\usepackage{babel}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
 \usepackage{units}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -19,7 +20,7 @@
  breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=false]
  {hyperref}
 \hypersetup{pdftitle={HSLU Zulassungsstudium Mathe Formelsammlung},
- pdfauthor={KevinHaeusler}}
+ pdfauthor={KevinHäusler}}
 
 \makeatletter
 
@@ -38,13 +39,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
 \usepackage{tabularx}
-
 \usepackage{pgf,tikz}
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
 \usepackage{multicol}
 \usepackage{array}
 \usepackage{pgfplots}
+\usetikzlibrary{intersections,angles,quotes}
+\usepgfplotslibrary{fillbetween}
 \usepackage{tocloft}
 \addto\captionsenglish{% Replace "english" with the language you use
   \renewcommand{\contentsname}%
@@ -62,7 +64,7 @@
 
 \begin{document}
 \lhead{\textsf{\textbf{HSLU Zulassungsstudium Formelsammlung}}}
-\rhead{\textsf{Kevin Haeusler}}
+\rhead{\textsf{Kevin Häusler}}
 \title{\textsf{\textbf{HSLU Zulassungsstudium Formelsammlung}}}
 \date{}
 

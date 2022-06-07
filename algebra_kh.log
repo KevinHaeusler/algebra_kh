@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  3 JUN 2022 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  6 JUN 2022 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -60,9 +60,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
- (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/base/latin9.def
-File: latin9.def 2021/02/14 v1.3d Input encoding file
-)) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -111,6 +109,16 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
+) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
@@ -641,7 +649,13 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
+))) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count326
+)) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip69
@@ -670,8 +684,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip92
 \cftfigindent=\skip93
 \cftfignumwidth=\skip94
-\c@lofdepth=\count326
-\c@lotdepth=\count327
+\c@lofdepth=\count327
+\c@lotdepth=\count328
 \cftbeforelottitleskip=\skip95
 \cftafterlottitleskip=\skip96
 \cftbeforetabskip=\skip97
@@ -681,35 +695,31 @@ Package tocloft Info: The document has section divisions on input line 51.
 File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 63.
- (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count328
+\l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box111
 ) (./algebra_kh.aux)
 \openout1 = `algebra_kh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -751,16 +761,16 @@ Package geometry Warning: The marginal notes overrun the paper.
 
 (f:/Tools/texlive/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
+\scratchcounter=\count330
 \scratchdimen=\dimen300
 \scratchbox=\box112
-\nofMPsegments=\count330
-\nofMParguments=\count331
+\nofMPsegments=\count331
+\nofMParguments=\count332
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count332
+\MPscratchCnt=\count333
 \MPscratchDim=\dimen301
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks44
 ) (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -768,7 +778,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 65.
  (./algebra_kh.out) (./algebra_kh.out)
 \@outlinefile=\write4
 \openout4 = `algebra_kh.out'.
@@ -776,39 +786,43 @@ Package hyperref Info: Link coloring OFF on input line 63.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 63.
+ on input line 65.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 71.
-(f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 73.
+(f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 71.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
+ (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 71.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 71.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 71.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 71.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 71.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+(Font)              <6> on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 71.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 73.
  (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -822,46 +836,31 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-
-Underfull \hbox (badness 6157) in paragraph at lines 36--36
- [][] [][]\OT1/lmr/bx/n/10 Exponential- und Log-a-rith-mus-gle- 
- []
-
-
-Underfull \hbox (badness 6284) in paragraph at lines 68--68
- [][] [][]\OT1/lmr/m/n/10 Zusammenfassung der wichtig-sten 
- []
-
-
-Underfull \hbox (badness 6284) in paragraph at lines 72--72
- [][] [][]\OT1/lmr/m/n/10 Zusammenfassung der wichtig-sten 
- []
-
-[1
+ [1
 
 {f:/Tools/texlive/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
- [][] [][]\OT1/lmr/bx/n/10 Trigonometrische Funk-tio-nen am 
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+ [][] [][]\T1/lmr/bx/n/10 Trigonometrische Funk-tio-nen am 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
- [][] [][]\OT1/lmr/bx/n/10 Trigonometrische Funk-tio-nen am 
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+ [][] [][]\T1/lmr/bx/n/10 Trigonometrische Funk-tio-nen am 
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 95--95
- [][] [][]\OT1/lmr/m/n/10 Vorzeichen der Trigonometrischen 
+Underfull \hbox (badness 7238) in paragraph at lines 110--110
+ [][] [][]\T1/lmr/m/n/10 Vorzeichen der Tri-go-no-me-tri-schen 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
- [][] [][]\OT1/lmr/m/n/10 Winkelfunktionen des dop-pel-ten 
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+ [][] [][]\T1/lmr/m/n/10 Winkelfunktionen des dop-pel-ten 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
- [][] [][]\OT1/lmr/m/n/10 Winkelfunktionen des dreifachen 
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ [][] [][]\T1/lmr/m/n/10 Winkelfunktionen des drei-fa-chen 
  []
 
 )
@@ -874,233 +873,208 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 18--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 50--54
+Overfull \hbox (5.0pt too wide) in paragraph at lines 56--63
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
-
- []
-
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 117--118
+Overfull \hbox (5.0pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 
-Overfull \hbox (3.53442pt too wide) in paragraph at lines 119--127
+Overfull \hbox (3.53442pt too wide) in paragraph at lines 125--133
 [][] 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 166--174
+Underfull \hbox (badness 10000) in paragraph at lines 172--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Overfull \hbox (3.20183pt too wide) in paragraph at lines 239--239
-[]|\OT1/lmr/m/n/10 Gemischtquadrat- 
+Overfull \hbox (3.20183pt too wide) in paragraph at lines 245--245
+[]|\T1/lmr/m/n/10 Gemischtquadrat- 
  []
 
 
-Overfull \hbox (3.20183pt too wide) in paragraph at lines 239--239
-[]|\OT1/lmr/m/n/10 Gemischtquadrat- 
+Overfull \hbox (3.20183pt too wide) in paragraph at lines 245--245
+[]|\T1/lmr/m/n/10 Gemischtquadrat- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--240
+Underfull \hbox (badness 10000) in paragraph at lines 234--246
 
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 228--240
+Overfull \hbox (5.0pt too wide) in paragraph at lines 234--246
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 304.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 310.
 (f:/Tools/texlive/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [5]
-Underfull \hbox (badness 10000) in paragraph at lines 307--310
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-\OT1/lmr/m/n/10 Grundsaetzlich loe-sen wir Poten-z-gle-ichun-gen durch
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--359
 
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 356--369
+Overfull \hbox (5.0pt too wide) in paragraph at lines 362--375
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 383--386
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 387--393
+Underfull \hbox (badness 10000) in paragraph at lines 414--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--412
+Underfull \hbox (badness 10000) in paragraph at lines 414--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--412
+Underfull \hbox (badness 10000) in paragraph at lines 414--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--412
-
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]\T1/lmr/bx/n/12 Exponential- und Lo-ga-rith-mus-glei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--414
-[]\OT1/lmr/bx/n/12 Exponential- und Log-a-rith-mus-gle-
- []
-
-
-Overfull \hbox (1.77296pt too wide) detected at line 442
+Overfull \hbox (1.77296pt too wide) detected at line 450
 [] \OML/lmm/m/it/10 x \OT1/lmr/m/n/10 + [] \OML/lmm/m/it/10 y \OT1/lmr/m/n/10 = [] [][] [] \OML/lmm/m/it/10 x \OMS/lmsy/m/n/10 ^^@ [] \OML/lmm/m/it/10 y \OT1/lmr/m/n/10 = [] [][] [] [] = \OML/lmm/m/it/10 b [] a:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 [8]
-Overfull \hbox (5.0pt too wide) in paragraph at lines 536--537
+Overfull \hbox (5.0pt too wide) in paragraph at lines 553--554
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
+[]$\OML/lmm/m/it/10 x$\T1/lmr/m/n/10 : Un-ab-hän-gi-ge Va-ria-ble, x-Wert, (Funktions-
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--584
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
 
  []
 
@@ -1121,23 +1095,23 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--723
-\OT1/lmr/m/n/10 Wenn wir jetzt die berech-neten Punkte in ein
+Underfull \hbox (badness 10000) in paragraph at lines 705--740
+\T1/lmr/m/n/10 Wenn wir jetzt die be-rech-ne-ten Punk-te in ein
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--723
-\OT1/lmr/m/n/10 Ko-or-di-naten-sys-tem ein-tra-gen und an-schliessend die
+Underfull \hbox (badness 10000) in paragraph at lines 705--740
+\T1/lmr/m/n/10 Ko-or-di-na-ten-sys-tem ein-tra-gen und an-sch-lies-send die
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 688--723
-\OT1/lmr/m/n/10 Punkte verbinden, er-hal-ten wir den Graphen der
+Underfull \hbox (badness 10000) in paragraph at lines 705--740
+\T1/lmr/m/n/10 Punk-te ver-bin-den, er-hal-ten wir den Gra-phen der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--724
-[]\OT1/lmr/bx/n/10 Normalparabel nach oben/unten ver-
+Underfull \hbox (badness 7451) in paragraph at lines 705--740
+\T1/lmr/m/n/10 Funk-ti-on $\OML/lmm/m/it/10 f\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 x\OT1/lmr/m/n/10 ) = \OML/lmm/m/it/10 x[]$ \T1/lmr/m/n/10 , die sog. Nor-mal-pa-ra-bel.
  []
 
 Missing character: There is no . in font nullfont!
@@ -1178,17 +1152,17 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 774--805
+Overfull \hbox (5.0pt too wide) in paragraph at lines 791--822
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 774--805
+Underfull \hbox (badness 10000) in paragraph at lines 791--822
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 774--805
+Underfull \hbox (badness 10000) in paragraph at lines 791--822
 
  []
 
@@ -1211,119 +1185,58 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--841
-\OT1/lmr/m/n/10 Bei quadratis-chen Funk-tio-nen laesst sich der y-
+Underfull \hbox (badness 10000) in paragraph at lines 856--858
+\T1/lmr/m/n/10 Bei qua-dra-ti-schen Funk-tio-nen lässt sich der y-
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 846--850
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--850
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--850
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--850
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--850
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 863--865
+Underfull \hbox (badness 10000) in paragraph at lines 880--882
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 871--872
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 871--872
-
- []
-
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--941
+
+ []
+
 [12]
-Overfull \hbox (8.24347pt too wide) in paragraph at lines 951--951
-[]|\OT1/lmr/m/n/10 achsensymmetrisch|  
- []
-
-
-Overfull \hbox (1.66101pt too wide) in paragraph at lines 951--951
-[]|$\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 1)$,$(0\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 0)$,$(1\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 1)$|  
- []
-
-
-Overfull \hbox (9.43881pt too wide) in paragraph at lines 951--951
-[]|$\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 ; \OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1)$,$(0\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 0)$,$(1\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 1)$|  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--952
-\OT1/lmr/m/n/10 Potenzfunktionen mit pos-i-tiven ganz-zahli-gen Ex-po-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--952
-\OT1/lmr/m/n/10 nen-ten $[]$ haben fol-gende Eigen-schaften:
- []
-
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 939--952
-[] 
- []
-
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -1331,320 +1244,498 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 957--986
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 957--986
-
- []
-
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--1017
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--1017
-
- []
-
-
-Overfull \hbox (8.24347pt too wide) in paragraph at lines 1033--1033
-[]|\OT1/lmr/m/n/10 achsensymmetrisch|  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1020--1034
-\OT1/lmr/m/n/10 Potenzfunktionen mit neg-a-tiven ganz-zahli-gen Ex-po-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1020--1034
-\OT1/lmr/m/n/10 nen-ten $[]$ haben fol-gende Eigen-schaften:
- []
-
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 1020--1034
-[] 
- []
-
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1052
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1052
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+[14]
+Overfull \hbox (8.24347pt too wide) in paragraph at lines 1215--1215
+[]|\T1/lmr/m/n/10 achsensymmetrisch|  
+ []
+
+
+Overfull \hbox (1.66101pt too wide) in paragraph at lines 1215--1215
+[]|$\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 1)$\T1/lmr/m/n/10 ,$\OT1/lmr/m/n/10 (0\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 0)$\T1/lmr/m/n/10 ,$\OT1/lmr/m/n/10 (1\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 1)$|  
+ []
+
+
+Overfull \hbox (9.43881pt too wide) in paragraph at lines 1215--1215
+[]|$\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 ; \OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1)$\T1/lmr/m/n/10 ,$\OT1/lmr/m/n/10 (0\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 0)$\T1/lmr/m/n/10 ,$\OT1/lmr/m/n/10 (1\OMS/lmsy/m/n/10 j\OT1/lmr/m/n/10 1)$|  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1216
+\T1/lmr/m/n/10 Potenzfunktionen mit po-si-ti-ven ganz-zah-li-gen Ex-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1216
+\T1/lmr/m/n/10 nen-ten $[]$ ha-ben fol-gen-de Ei-gen-schaf-ten:
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 1203--1216
+[] 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1052
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1250
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1052
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1281
 
  []
 
 
-Overfull \hbox (0.48933pt too wide) detected at line 1052
-[]
+Overfull \hbox (8.24347pt too wide) in paragraph at lines 1297--1297
+[]|\T1/lmr/m/n/10 achsensymmetrisch|  
  []
 
-<wurzelfunktion1.png, id=770, 271.0125pt x 245.718pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1298
+\T1/lmr/m/n/10 Potenzfunktionen mit ne-ga-ti-ven ganz-zah-li-gen Ex-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1298
+\T1/lmr/m/n/10 nen-ten $[]$ ha-ben fol-gen-de Ei-gen-schaf-ten:
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 1284--1298
+[] 
+ []
+
+[15]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
+
+ []
+
+<wurzelfunktion1.png, id=889, 271.0125pt x 245.718pt>
 File: wurzelfunktion1.png Graphic file (type png)
 <use wurzelfunktion1.png>
-Package pdftex.def Info: wurzelfunktion1.png  used on input line 1058.
+Package pdftex.def Info: wurzelfunktion1.png  used on input line 1357.
 (pdftex.def)             Requested size: 189.70744pt x 172.00142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1062
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1361
 
  []
 
-<wurzelfunktion2.png, id=772, 244.5135pt x 240.9pt>
+[16 <./wurzelfunktion1.PNG>]
+<wurzelfunktion2.png, id=896, 244.5135pt x 240.9pt>
 File: wurzelfunktion2.png Graphic file (type png)
 <use wurzelfunktion2.png>
-Package pdftex.def Info: wurzelfunktion2.png  used on input line 1069.
+Package pdftex.def Info: wurzelfunktion2.png  used on input line 1368.
 (pdftex.def)             Requested size: 171.15826pt x 168.62883pt.
-[14 <./wurzelfunktion1.PNG>]
-Overfull \hbox (25.62685pt too wide) detected at line 1077
+
+Overfull \hbox (25.62685pt too wide) detected at line 1376
 []\OML/lmm/m/it/10 f [] []  []
  []
 
 
-Overfull \hbox (25.62685pt too wide) detected at line 1079
+Overfull \hbox (25.62685pt too wide) detected at line 1378
 \OML/lmm/m/it/10 f[] [] []  []
  []
 
-<wurzelfunktion3.png, id=778, 263.7855pt x 242.1045pt>
+<wurzelfunktion3.png, id=897, 263.7855pt x 242.1045pt>
 File: wurzelfunktion3.png Graphic file (type png)
 <use wurzelfunktion3.png>
-Package pdftex.def Info: wurzelfunktion3.png  used on input line 1081.
+Package pdftex.def Info: wurzelfunktion3.png  used on input line 1380.
 (pdftex.def)             Requested size: 184.64859pt x 169.47198pt.
-) (./trigonometrie.tex [15 <./wurzelfunktion2.PNG> <./wurzelfunktion3.PNG>]
-<gradmass.PNG, id=785, 654.19406pt x 538.26094pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
+\T1/lmr/m/n/10 Eine Funk-ti-on mit der Funk-ti-ons-glei-chung $\OML/lmm/m/it/10 y \OT1/lmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 1401--1402
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+[17 <./wurzelfunktion2.PNG> <./wurzelfunktion3.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1450
+\T1/lmr/m/n/10 Eine Funk-ti-on mit der Funk-ti-ons-glei-chung $\OML/lmm/m/it/10 y \OT1/lmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 1437--1450
+[] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (./trigonometrie.tex [18]
+<gradmass.PNG, id=908, 654.19406pt x 538.26094pt>
 File: gradmass.PNG Graphic file (type png)
 <use gradmass.PNG>
 Package pdftex.def Info: gradmass.PNG  used on input line 5.
 (pdftex.def)             Requested size: 457.93272pt x 376.78009pt.
-<sinkan1.PNG, id=786, 647.41875pt x 73.02281pt>
+<sinkan1.PNG, id=909, 647.41875pt x 73.02281pt>
 File: sinkan1.PNG Graphic file (type png)
 <use sinkan1.PNG>
 Package pdftex.def Info: sinkan1.PNG  used on input line 8.
 (pdftex.def)             Requested size: 453.19003pt x 51.1156pt.
-<sinkan2.PNG, id=787, 651.93562pt x 344.03531pt>
+<sinkan2.PNG, id=910, 651.93562pt x 344.03531pt>
 File: sinkan2.PNG Graphic file (type png)
 <use sinkan2.PNG>
 Package pdftex.def Info: sinkan2.PNG  used on input line 10.
 (pdftex.def)             Requested size: 456.35182pt x 240.82307pt.
- [16 <./gradmass.PNG> <./sinkan1.PNG>]
-<kossek1.PNG, id=794, 648.17157pt x 75.28125pt>
+ [19 <./gradmass.PNG> <./sinkan1.PNG>]
+<kossek1.PNG, id=918, 648.17157pt x 75.28125pt>
 File: kossek1.PNG Graphic file (type png)
 <use kossek1.PNG>
 Package pdftex.def Info: kossek1.PNG  used on input line 12.
 (pdftex.def)             Requested size: 453.717pt x 52.6965pt.
-<kossek2.PNG, id=795, 651.93562pt x 343.2825pt>
+<kossek2.PNG, id=919, 651.93562pt x 343.2825pt>
 File: kossek2.PNG Graphic file (type png)
 <use kossek2.PNG>
 Package pdftex.def Info: kossek2.PNG  used on input line 14.
 (pdftex.def)             Requested size: 456.35182pt x 240.2961pt.
-<tanko1.PNG, id=796, 648.92438pt x 72.27pt>
+<tanko1.PNG, id=920, 648.92438pt x 72.27pt>
 File: tanko1.PNG Graphic file (type png)
 <use tanko1.PNG>
 Package pdftex.def Info: tanko1.PNG  used on input line 16.
 (pdftex.def)             Requested size: 454.24397pt x 50.58864pt.
-<tanko2.PNG, id=797, 653.44125pt x 344.78813pt>
+<tanko2.PNG, id=921, 653.44125pt x 344.78813pt>
 File: tanko2.PNG Graphic file (type png)
 <use tanko2.PNG>
 Package pdftex.def Info: tanko2.PNG  used on input line 18.
 (pdftex.def)             Requested size: 457.40576pt x 241.35004pt.
- [17 <./sinkan2.PNG> <./kossek1.PNG> <./kossek2.PNG> <./tanko1.PNG>]
-<sinkota.PNG, id=806, 647.41875pt x 369.63094pt>
+ [20 <./sinkan2.PNG> <./kossek1.PNG> <./kossek2.PNG> <./tanko1.PNG>]
+<sinkota.PNG, id=930, 647.41875pt x 369.63094pt>
 File: sinkota.PNG Graphic file (type png)
 <use sinkota.PNG>
 Package pdftex.def Info: sinkota.PNG  used on input line 21.
 (pdftex.def)             Requested size: 453.19003pt x 258.73988pt.
- [18 <./tanko2.PNG> <./sinkota.PNG>]
-<sinussatz.PNG, id=813, 656.4525pt x 827.34094pt>
+ [21 <./tanko2.PNG> <./sinkota.PNG>]
+<sinussatz.PNG, id=937, 656.4525pt x 827.34094pt>
 File: sinussatz.PNG Graphic file (type png)
 <use sinussatz.PNG>
 Package pdftex.def Info: sinussatz.PNG  used on input line 28.
 (pdftex.def)             Requested size: 459.51361pt x 579.13472pt.
-<kosinussatz.PNG, id=814, 659.46375pt x 758.835pt>
+<kosinussatz.PNG, id=938, 659.46375pt x 758.835pt>
 File: kosinussatz.PNG Graphic file (type png)
 <use kosinussatz.PNG>
 Package pdftex.def Info: kosinussatz.PNG  used on input line 30.
 (pdftex.def)             Requested size: 461.62148pt x 531.1809pt.
- [19 <./sinussatz.PNG>]
-<flaechensatz.PNG, id=821, 658.71094pt x 178.41656pt>
+ [22 <./sinussatz.PNG>]
+<flaechensatz.PNG, id=944, 658.71094pt x 178.41656pt>
 File: flaechensatz.PNG Graphic file (type png)
 <use flaechensatz.PNG>
 Package pdftex.def Info: flaechensatz.PNG  used on input line 33.
 (pdftex.def)             Requested size: 461.09451pt x 124.89072pt.
- [20 <./kosinussatz.PNG>]
-<kreissektor.PNG, id=827, 656.4525pt x 228.855pt>
+ [23 <./kosinussatz.PNG>]
+<kreissektor.PNG, id=950, 656.4525pt x 228.855pt>
 File: kreissektor.PNG Graphic file (type png)
 <use kreissektor.PNG>
 Package pdftex.def Info: kreissektor.PNG  used on input line 35.
 (pdftex.def)             Requested size: 459.51361pt x 160.1974pt.
-<kreissegment.PNG, id=828, 653.44125pt x 377.91188pt>
+<kreissegment.PNG, id=951, 653.44125pt x 377.91188pt>
 File: kreissegment.PNG Graphic file (type png)
 <use kreissegment.PNG>
 Package pdftex.def Info: kreissegment.PNG  used on input line 37.
 (pdftex.def)             Requested size: 457.40576pt x 264.5365pt.
- [21 <./flaechensatz.PNG> <./kreissektor.PNG> <./Kreissegment.PNG>]
-<einheitskreis1.PNG, id=836, 658.71094pt x 271.76532pt>
-File: einheitskreis1.PNG Graphic file (type png)
-<use einheitskreis1.PNG>
-Package pdftex.def Info: einheitskreis1.PNG  used on input line 45.
-(pdftex.def)             Requested size: 461.09451pt x 190.23442pt.
-<einheitskreis2.PNG, id=837, 658.71094pt x 271.0125pt>
-File: einheitskreis2.PNG Graphic file (type png)
-<use einheitskreis2.PNG>
-Package pdftex.def Info: einheitskreis2.PNG  used on input line 47.
-(pdftex.def)             Requested size: 461.09451pt x 189.70744pt.
-<einheitskreis3.PNG, id=838, 651.93562pt x 591.71063pt>
-File: einheitskreis3.PNG Graphic file (type png)
-<use einheitskreis3.PNG>
-Package pdftex.def Info: einheitskreis3.PNG  used on input line 49.
-(pdftex.def)             Requested size: 456.35182pt x 414.19461pt.
- [22 <./einheitskreis1.PNG> <./einheitskreis2.PNG>]
-<einheitskreis4.PNG, id=846, 651.93562pt x 609.77812pt>
+ [24 <./flaechensatz.PNG> <./kreissektor.PNG> <./Kreissegment.PNG>]
+<einheitskreis4.PNG, id=959, 651.93562pt x 609.77812pt>
 File: einheitskreis4.PNG Graphic file (type png)
 <use einheitskreis4.PNG>
-Package pdftex.def Info: einheitskreis4.PNG  used on input line 51.
+Package pdftex.def Info: einheitskreis4.PNG  used on input line 91.
 (pdftex.def)             Requested size: 456.35182pt x 426.84177pt.
- [23 <./einheitskreis3.PNG>]
-<trigfunktionen.PNG, id=852, 660.96938pt x 895.09406pt>
-File: trigfunktionen.PNG Graphic file (type png)
-<use trigfunktionen.PNG>
-Package pdftex.def Info: trigfunktionen.PNG  used on input line 54.
-(pdftex.def)             Requested size: 462.6754pt x 626.56155pt.
- [24 <./einheitskreis4.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ [25] [26 <./einheitskreis4.PNG>] [27]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 
+Underfull \hbox (badness 10000) in alignment at lines 249--249
+[][][] 
  []
 
-[25 <./trigfunktionen.PNG>]
-<sinus1.PNG, id=864, 652.68843pt x 760.34062pt>
-File: sinus1.PNG Graphic file (type png)
-<use sinus1.PNG>
-Package pdftex.def Info: sinus1.PNG  used on input line 60.
-(pdftex.def)             Requested size: 522.15146pt x 608.27332pt.
-<sinmax.PNG, id=865, 663.22781pt x 879.285pt>
-File: sinmax.PNG Graphic file (type png)
-<use sinmax.PNG>
-Package pdftex.def Info: sinmax.PNG  used on input line 62.
-(pdftex.def)             Requested size: 464.2563pt x 615.49532pt.
- [26 <./sinus1.PNG>] [27 <./sinmax.PNG>]
-<gon1.PNG, id=876, 653.44125pt x 265.74281pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 249--250
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 290--291
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 331--332
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 372--373
+[][] 
+ []
+
+[28]
+<gon1.PNG, id=980, 653.44125pt x 265.74281pt>
 File: gon1.PNG Graphic file (type png)
 <use gon1.PNG>
-Package pdftex.def Info: gon1.PNG  used on input line 68.
+Package pdftex.def Info: gon1.PNG  used on input line 385.
 (pdftex.def)             Requested size: 457.40576pt x 186.01869pt.
-<gon2.PNG, id=877, 654.19406pt x 324.46219pt>
+<gon2.PNG, id=981, 654.19406pt x 324.46219pt>
 File: gon2.PNG Graphic file (type png)
 <use gon2.PNG>
-Package pdftex.def Info: gon2.PNG  used on input line 71.
+Package pdftex.def Info: gon2.PNG  used on input line 388.
 (pdftex.def)             Requested size: 457.93272pt x 227.12196pt.
-<gon3.PNG, id=878, 654.94687pt x 190.46156pt>
+<gon3.PNG, id=982, 654.94687pt x 190.46156pt>
 File: gon3.PNG Graphic file (type png)
 <use gon3.PNG>
-Package pdftex.def Info: gon3.PNG  used on input line 74.
+Package pdftex.def Info: gon3.PNG  used on input line 391.
 (pdftex.def)             Requested size: 458.45969pt x 133.32216pt.
-<gon4.PNG, id=879, 654.19406pt x 167.12437pt>
+<gon4.PNG, id=983, 654.19406pt x 167.12437pt>
 File: gon4.PNG Graphic file (type png)
 <use gon4.PNG>
-Package pdftex.def Info: gon4.PNG  used on input line 77.
+Package pdftex.def Info: gon4.PNG  used on input line 394.
 (pdftex.def)             Requested size: 457.93272pt x 116.98625pt.
- [28 <./gon1.PNG> <./gon2.PNG> <./gon3.PNG>]
-<gon5.PNG, id=887, 653.44125pt x 220.57407pt>
+ [29 <./gon1.PNG> <./gon2.PNG> <./gon3.PNG>]
+<gon5.PNG, id=991, 653.44125pt x 220.57407pt>
 File: gon5.PNG Graphic file (type png)
 <use gon5.PNG>
-Package pdftex.def Info: gon5.PNG  used on input line 80.
+Package pdftex.def Info: gon5.PNG  used on input line 397.
 (pdftex.def)             Requested size: 457.40576pt x 154.40079pt.
-<vec1.PNG, id=888, 654.19406pt x 339.51843pt>
+<vec1.PNG, id=992, 654.19406pt x 339.51843pt>
 File: vec1.PNG Graphic file (type png)
 <use vec1.PNG>
-Package pdftex.def Info: vec1.PNG  used on input line 100.
+Package pdftex.def Info: vec1.PNG  used on input line 417.
 (pdftex.def)             Requested size: 457.93272pt x 237.66127pt.
- [29 <./gon4.PNG> <./gon5.PNG>]
-<vec2.PNG, id=895, 656.4525pt x 261.22594pt>
+ [30 <./gon4.PNG> <./gon5.PNG>]
+<vec2.PNG, id=999, 656.4525pt x 261.22594pt>
 File: vec2.PNG Graphic file (type png)
 <use vec2.PNG>
-Package pdftex.def Info: vec2.PNG  used on input line 102.
+Package pdftex.def Info: vec2.PNG  used on input line 419.
 (pdftex.def)             Requested size: 459.51361pt x 182.85689pt.
-<vec3.PNG, id=896, 653.44125pt x 261.97874pt>
+<vec3.PNG, id=1000, 653.44125pt x 261.97874pt>
 File: vec3.PNG Graphic file (type png)
 <use vec3.PNG>
-Package pdftex.def Info: vec3.PNG  used on input line 104.
+Package pdftex.def Info: vec3.PNG  used on input line 421.
 (pdftex.def)             Requested size: 457.40576pt x 183.38387pt.
- [30 <./vec1.PNG> <./vec2.PNG>]
-<vec3-1.PNG, id=903, 532.23843pt x 62.48344pt>
+ [31 <./vec1.PNG> <./vec2.PNG>]
+<vec3-1.PNG, id=1008, 532.23843pt x 62.48344pt>
 File: vec3-1.PNG Graphic file (type png)
 <use vec3-1.PNG>
-Package pdftex.def Info: vec3-1.PNG  used on input line 106.
+Package pdftex.def Info: vec3-1.PNG  used on input line 423.
 (pdftex.def)             Requested size: 372.56435pt x 43.7381pt.
-<vec3-2.PNG, id=904, 654.19406pt x 209.28188pt>
+<vec3-2.PNG, id=1009, 654.19406pt x 209.28188pt>
 File: vec3-2.PNG Graphic file (type png)
 <use vec3-2.PNG>
-Package pdftex.def Info: vec3-2.PNG  used on input line 108.
+Package pdftex.def Info: vec3-2.PNG  used on input line 425.
 (pdftex.def)             Requested size: 457.93272pt x 146.49629pt.
-<vec4.PNG, id=905, 650.43pt x 140.77594pt>
+<vec4.PNG, id=1010, 650.43pt x 140.77594pt>
 File: vec4.PNG Graphic file (type png)
 <use vec4.PNG>
-Package pdftex.def Info: vec4.PNG  used on input line 111.
+Package pdftex.def Info: vec4.PNG  used on input line 428.
 (pdftex.def)             Requested size: 455.2979pt x 98.54247pt.
-<vec4-1.PNG, id=906, 654.94687pt x 224.33812pt>
+<vec4-1.PNG, id=1011, 654.94687pt x 224.33812pt>
 File: vec4-1.PNG Graphic file (type png)
 <use vec4-1.PNG>
-Package pdftex.def Info: vec4-1.PNG  used on input line 113.
+Package pdftex.def Info: vec4-1.PNG  used on input line 430.
 (pdftex.def)             Requested size: 458.45969pt x 157.03561pt.
-<vec4-2.PNG, id=907, 655.69969pt x 78.2925pt>
+<vec4-2.PNG, id=1012, 655.69969pt x 78.2925pt>
 File: vec4-2.PNG Graphic file (type png)
 <use vec4-2.PNG>
-Package pdftex.def Info: vec4-2.PNG  used on input line 115.
+Package pdftex.def Info: vec4-2.PNG  used on input line 432.
 (pdftex.def)             Requested size: 458.98665pt x 54.80437pt.
- [31 <./vec3.PNG> <./vec3-1.PNG> <./vec3-2.PNG> <./vec4.PNG> <./vec4-1.PNG>]
-<vec5.PNG, id=918, 651.93562pt x 759.58781pt>
+ [32 <./vec3.PNG> <./vec3-1.PNG> <./vec3-2.PNG> <./vec4.PNG> <./vec4-1.PNG>]
+<vec5.PNG, id=1022, 651.93562pt x 759.58781pt>
 File: vec5.PNG Graphic file (type png)
 <use vec5.PNG>
-Package pdftex.def Info: vec5.PNG  used on input line 118.
+Package pdftex.def Info: vec5.PNG  used on input line 435.
 (pdftex.def)             Requested size: 456.35182pt x 531.70784pt.
- [32 <./vec4-2.PNG> <./vec5.PNG>] [33]) (./algebra_kh.aux)
+ [33 <./vec4-2.PNG> <./vec5.PNG>] [34]) (./algebra_kh.aux)
 Package rerunfilecheck Info: File `algebra_kh.out' has not changed.
-(rerunfilecheck)             Checksum: D9BB6219D83E1C6D25577485B6FD4DB9;21427.
+(rerunfilecheck)             Checksum: 09DCD5BE02213481A5C1896756D41B1E;24029.
  ) 
 Here is how much of TeX's memory you used:
- 34779 strings out of 478300
- 815772 string characters out of 5842137
- 1273263 words of memory out of 5000000
- 52115 multiletter control sequences out of 15000+600000
- 528382 words of font info for 83 fonts, out of 8000000 for 9000
+ 36092 strings out of 478300
+ 847923 string characters out of 5842137
+ 1429800 words of memory out of 5000000
+ 53357 multiletter control sequences out of 15000+600000
+ 543755 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,18n,77p,783b,2257s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbsy7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmex10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmib7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on algebra_kh.pdf (33 pages, 1860621 bytes).
+ 72i,19n,77p,807b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{f:/Tools/texlive/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbsy7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmex10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmib7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><f:/Tools/texlive/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on algebra_kh.pdf (34 pages, 1570294 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
- 907 compressed objects within 10 object streams
- 221 named destinations out of 1000 (max. 500000)
- 1158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 1033 compressed objects within 11 object streams
+ 255 named destinations out of 1000 (max. 500000)
+ 1280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
