@@ -38,14 +38,30 @@
 {\end{list}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{esvect}% vector \vv
+\newcommand{\hlr}[1]{%
+  \colorbox{red!50}{$\displaystyle#1$}}
+\newcommand{\hly}[1]{%
+  \colorbox{yellow!40}{$\displaystyle#1$}}
+\newcommand{\hlt}[1]{%
+  \colorbox{teal!40}{$\displaystyle#1$}}
+
+  \usepackage{upgreek}
+
 \usepackage{tabularx}
 \usepackage{pgf,tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{intersections,angles,quotes}
+% for right angle
+\usepackage{tkz-euclide}
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
 \usepackage{multicol}
 \usepackage{array}
 \usepackage{pgfplots}
-\usetikzlibrary{intersections,angles,quotes}
 \usepgfplotslibrary{fillbetween}
 \usepackage{tocloft}
 \addto\captionsenglish{% Replace "english" with the language you use
@@ -70,7 +86,7 @@
 
 
 \maketitle
-\begin{multicols}{2}
+\begin{multicols}{2 }
 
   \setlength{\parskip}{0.0in}
 
@@ -88,4 +104,5 @@
 
 
 \input{trigonometrie.tex}
+\input{vektor.tex}
 \end{document}

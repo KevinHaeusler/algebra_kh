@@ -57,7 +57,7 @@
     \\~\\
     \\~\\
     \\~\\
-    f
+
     \def\firstcircle{(0,0) circle (1cm)}
     \def\secondcircle{(0:1.2cm) circle (1cm)}
 
@@ -131,6 +131,42 @@
         F & F &  & F & \textcolor{red}{F} & F &  &  & F & \textcolor{red}{F} & F &  & \textcolor{red}{T} & F &  & F & \textcolor{red}{T} & T       & F & \\
     \end{tabular}
 
+    \subsection{Prozentrechnen}
+    \vspace{-4mm}
+    \subsubsection{Definition}
+    \vspace{-4mm}
+    $\frac{\text{Prozentwert } W}{\text{Grundwert } G} = \frac{\text{Prozentzahl } p}{100} = \text{Prozentsatz } p\ \%$
+    \subsubsection{Prozentwert berechnen}
+    \vspace{-4mm}
+    $(1) \text{ Prozentwert } W = \text{Prozentsatz } p\ \% \cdot \text{ Grundwert } G$\\
+    $(2) \text{ Prozentwert } W = \frac{\text{Prozentzahl } p}{100} \cdot \text{ Grundwert } G$
+    \subsubsection{Prozentsatz berechnen}
+    \vspace{-4mm}
+    $(1) \text{ Prozentzahl } p = \frac{\text{Prozentwert } W}{\text{Grundwert } G} \cdot 100$\\
+    $(2) \text{ Prozentsatz } p\ \% = \frac{\text{Prozentwert } W}{\text{Grundwert } G} \cdot 100\ \%$
+    \subsubsection{Grundwert berechnen }
+    \vspace{-4mm}
+    $(1) \text{ Grundwert } G = \text{Prozentwert } W:\text{Prozentsatz } p\ \%$\\
+    $(2) \text{ Grundwert } G = \text{Prozentwert } W \cdot \frac{100}{\text{Prozentzahl } p}$
+    \subsubsection{Prozentuale Veränderung}
+    \vspace{-4mm}
+    Eine prozentuale Veränderung ist die Veränderung einer Größe innerhalb eines bestimmten Zeitraums, ausgedrückt in Prozent.\\
+    $\text{Anfangswert} \pm \text{Prozentuale Veränderung} = \text{Endwert}$
+    \subsubsection{Prozentfaktor}
+    \vspace{-4mm}
+    $\text{Anfangswert } G \cdot \text{Prozentfaktor } q = \text{Endwert } G_{neu}$\\
+    $\,q = \left(100\ \% \pm p\ \%\right)$\\
+    $q = \left(1 \pm \frac{p}{100}\right)$
+
+    Bei einer Zunahme ist der Prozentfaktor größer als 1 = Wachstumsfaktor\\.
+    Bei einer Abnahme ist der Prozentfaktor kleiner als 1 = Abnahmefaktor.
+    \subsubsection{Prozentuale Zunahme}
+    \vspace{-4mm}
+    $\text{Endwert } G_{neu+} = \text{Anfangswert } G \cdot \underbrace{\left(1 + \frac{p}{100}\right)}_{\text{Wachstumsfaktor}}$
+    \subsubsection{Prozentuale Abnahme}
+    \vspace{-4mm}
+    $\text{Endwert } G_{neu-} = \text{Anfangswert } G \cdot \underbrace{\left(1 - \frac{p}{100}\right)}_{\text{Abnahmefaktor}}$
+
 
     \subsection{Aussagenlogik}
     \vspace{-4mm}
@@ -146,7 +182,6 @@
     Jeder sprachliche oder zeichensymbolische Ausdruck mit wenigstens einer Variablen
     wenn er durch jede sinnvolle Belegung der Variablen jeweils eine Aussage wird.
 
-    \newpage
 
     \section{Gleichungen}
     \vspace{-4mm}
@@ -513,12 +548,22 @@
     \subsubsection{Definition}
     \vspace{-4mm}
     Eine Ungleichung ist ein mathematischer Ausdruck, der aus zwei Termen besteht, die durch eines der Vergleichszeichen < (Kleinerzeichen), $\leq$ (Kleinergleichzeichen),
-    > (Groesserzeichen) oder $\geq$ (Groessergleichzeichen) verbunden sind.
+    > (Grösserzeichen) oder $\geq$ (Grössergleichzeichen) verbunden sind.
+
+    \subsubsection{Rechenregeln}
+    \vspace{-4mm}
+    $ a < b \quad \Longleftrightarrow \quad b > a$\\
+    $a \leq b \quad \Rightarrow \quad a+c \leq b+c$\\
+    $a \leq b \quad\text{und}\quad c \leq d \quad \Rightarrow \quad a+c \leq b+d$\\
+    $a < b \quad\text{und}\quad c \leq d \quad \Rightarrow \quad a+c < b+d$\\
+    $a \leq b \quad\text{und}\quad c \geq 0 \quad \Rightarrow \quad ac \leq bc$\\
+    $a \leq b \quad\text{und}\quad c \leq 0 \quad \Rightarrow \quad ac \geq bc$
+    $a \leq b \quad \Rightarrow \quad \frac{1}{a} \geq \frac{1}{b}$ \\
     \subsubsection{Lineare Ungleichungen}
     \vspace{-4mm}
     \begin{enumerate}
         \item Ungleichung nach x auflösen
-        \item loesungsmenge aufschreiben
+        \item Lösungsmenge aufschreiben
     \end{enumerate}
     \begin{itemize}
         \item Terme auf beiden Seiten der Ungleichung zusammenfassen
@@ -526,31 +571,48 @@
         \item Beide Seiten der Ungleichung mit derselben positiven* Zahl multiplizieren
         \item Beide Seiten der Ungleichung durch dieselbe positive* Zahl dividieren
     \end{itemize}
-    * Bei der Multiplikation bzw. Division mit einer negativen Zahl müssen wir das Ungleichungszeichen umdrehen.\\~\\
+    * Bei der Multiplikation bzw. Division mit einer negativen Zahl müssen wir das Ungleichungszeichen umdrehen.
+    \subsubsection{Quadratische Ungleichungen}
+    \vspace{-4mm}
+    Eine Ungleichung, die sich durch Äquivalenzumformungen in eine der Formen bringen lässt, heisst quadratische Ungleichung.\\
+    $ax^2 + bx + c < 0$\\
+    $ax^2 + bx + c > 0$\\
+    $ax^2 + bx + c \leq 0$\\
+    $ax^2 + bx + c \geq 0$\\
+    \begin{enumerate}
+        \item Quadratische Gleichung lösen
+        \item Potenzielle Lösungsintervalle aufstellen
+        \item Überprüfen, welche Lösungsintervalle zur Lösung gehören
+    \end{enumerate}
+    Eine quadratische Gleichung besitzt entweder keine Lösung, eine Lösung oder zwei Lösungen.
+    \subsubsection{Bruchungleichungen}
+    \vspace{-4mm}
+    Bei Bruchungleichungen gibt es 2 Fälle:
+
+    \textbf{Rechte Seite der Ungleichung $\neq$ 0}
+    \begin{enumerate}
+        \item Bruch durch Fallunterscheidung auflösen
+        \item Lösungsmengen der einzelnen Fälle bestimmen (Intervalle)
+        \item Lösungsmenge der Bruchungleichung bestimmen
+    \end{enumerate}
+    \begin{equation*} \frac{\text{Z}}{\text{N}} > c = \begin{cases} \frac{\text{Z}}{\text{N}} \cdot \text{N} > c \cdot \text{N} &\text{für } \text{N} > 0 \\[5px] \frac{\text{Z}}{\text{N}} \cdot \text{N} < c \cdot \text{N} &\text{für } \text{N} < 0 \end{cases} \end{equation*}
+    Das Auflösen des Bruchs geschieht durch Multiplikation der Ungleichung mit dem Nenner des Bruchs. Dabei müssen wir jedoch eine Fallunterscheidung vornehmen. Ist der Nenner nämlich negativ, dreht sich das Ungleichheitszeichen um.
+    \begin{equation*} \frac{\text{Z}}{\text{N}} > c = \begin{cases} \text{Z} > c \cdot \text{N} &\text{für } \text{N} > 0 \\[5px] \text{Z} < c \cdot \text{N} &\text{für } \text{N} < 0 \end{cases} \end{equation*}
+    Die Lösungsmenge der Ungleichung ist die Vereinigungsmenge der einzelnen Lösungsmengen.
+
+
+    \textbf{Rechte Seite der Ungleichung = 0}
+    \begin{enumerate}
+        \item Definitionsbereich bestimmen
+        \item Nullstellen berechnen
+        \item Intervallweise Betrachtung
+    \end{enumerate}
 
     \newpage
 
 
     \section{Funktionen}
     \vspace{-4mm}
-    \subsection{Allgemein}
-    \vspace{-4mm}
-    \subsubsection{Definition}
-    \vspace{-4mm}
-    Eine Funktion $f$ ist eine Zuordnung, bei der jedem Element x der Definitionsmenge D genau ein Element y der Wertemenge W zugeordnet ist.
-
-    \begin{tabularx}{0.5\textwidth} {
-            | >{\raggedright\arraybackslash}c
-            | >{\raggedright\arraybackslash}X |}
-        \hline
-        \textbf{Symbol}     & \textbf{Bedeutung}                         \\ \hline
-        $f$                 & Name der Funktion                          \\ \hline
-        $x$                 & Argument, x-Wert, unabhängige Variable     \\  \hline
-        $y$                 & Funktionswert, y-Wert, abhängige Variable  \\  \hline
-        $y = f(x)$          & Funktionsgleichung, Zuordnungsvorschrift*! \\ \hline
-        D oder $\mathbb{D}$ & Definitionsmenge, Definitionsbereich       \\  \hline
-        W oder$\mathbb{W}$  & Wertemenge, Wertebereich                   \\  \hline
-    \end{tabularx}
     \subsection{Lineare Funktionen}
     \vspace{-4mm}
     \subsubsection{Definiton}
@@ -1338,47 +1400,6 @@
         \end{axis}
     \end{tikzpicture}
 
-    \subsubsection{Gerader Wurzelexponent}
-    \vspace{-4mm}
-    Wir wollen die Umkehrfunktion der Potenzfunktion $y = x^2$ bilden.\\
-    Eine Umkehrfunktion existiert immer dann, wenn die Funktion entweder streng monoton steigend oder streng monoton fallend ist.
-    Bei der Funktion $y = x^2$ treten jedoch beide Fälle auf. Daraus folgt: Die Funktion  $y = x^2$
-    ist für $x \in \mathbb{R}$ nicht umkehrbar.\\~\\
-    \textbf{Lösung}\\~\\
-    Wir beschränken die Definitionsmenge auf einen Bereich, in dem die Funktion entweder nur streng monoton fallend ($x \leq 0$) oder nur streng monoton steigend ($x \geq 0$) verläuft.\\~\\
-    \textbf{Fall 1:} $x \leq 0$\\~\\
-    für $x \leq 0$ ist die Funktion $y = x^2$ streng monoton fallend und somit umkehrbar:
-    \begin{align*} & &&{\color{orange}\text{1) Funktionsgleichung nach $x$ auflösen}} \\[5px] f\colon\; y &= x^2 &&{\color{darkgray}| \text{ Wurzel ziehen}} \\[5px] \sqrt{y} &= \sqrt{x^2} \\[5px] \sqrt{y} &= |x| &&{\color{darkgray}| \text{ Betrag auflösen: } |x| = -x \text{ wegen } x \leq 0} \\[5px] \sqrt{y} &= -x &&{\color{darkgray}|\, \cdot (-1)} \\[5px] -\sqrt{y} &= x &&{\color{darkgray}| \text{ Seiten vertauschen}} \\[5px] x &= -\sqrt{y} \\[5px] & &&{\color{orange}\text{2) $x$ und $y$ vertauschen}} \\[5px] f^{-1}\colon\; y &= -\sqrt{x} \end{align*}
-    Um die Graphen der Funktionen ordentlich zu zeichnen, fertigen wir zwei Wertetabellen an.
-    \[ \phantom{^{-1}}f\colon\; \begin{array}{r|c|c|c|c|c} x & -2 & -1{,}5 & -1 & -0{,}5 & 0 \\ \hline y & 4 & 2{,}25 & 1 & 0{,}25 & 0 \end{array}\]
-    Die Wertetabelle von $f^{-1}$ erhält man durch Vertauschen der Zeilen der Wertetabelle von $f$.
-    \[f^{-1}\colon\; \begin{array}{r|c|c|c|c|c} x & 4 & 2{,}25 & 1 & 0{,}25 & 0 \\ \hline y & -2 & -1{,}5 & -1 & -0{,}5 & 0 \end{array}\]
-    \begin{center}
-        \includegraphics[scale=0.7]{wurzelfunktion1}
-    \end{center}
-    \textbf{Fall 2:} $x \geq 0$\\~\\
-    Für ist die Funktion $x \geq 0$ streng monoton steigend und somit umkehrbar:
-    \begin{align*} & &&{\color{orange}\text{1) Funktionsgleichung nach $x$ auflösen}} \\[5px] f\colon\; y &= x^2 &&{\color{darkgray}| \text{ Wurzel ziehen}} \\[5px] \sqrt{y} &= \sqrt{x^2} \\[5px] \sqrt{y} &= |x| &&{\color{darkgray}| \text{ Betrag auflösen: } |x| = x \text{ wegen } x \geq 0} \\[5px] \sqrt{y} &= x &&{\color{darkgray}| \text{ Seiten vertauschen}} \\[5px] x &= \sqrt{y} \\[5px] & &&{\color{orange}\text{2) $x$ und $y$ vertauschen}} \\[5px] f^{-1}\colon\; y &= \sqrt{x} \end{align*}
-    Um die Graphen der Funktionen ordentlich zu zeichnen, fertigen wir zwei Wertetabellen an.
-    \[\phantom{^{-1}}f\colon\; \begin{array}{r|c|c|c|c|c} x & 0 & 0{,}5 & 1 & 1{,}5 & 2 \\ \hline y & 0 & 0{,}25 & 1 & 2{,}25 & 4 \end{array}\]
-    Die Wertetabelle von $f^{-1}$ erhält man durch Vertauschen der Zeilen der Wertetabelle von $f$.
-    \[f^{-1}\colon\; \begin{array}{r|c|c|c|c|c} x & 0 & 0{,}25 & 1 & 2{,}25 & 4 \\ \hline y & 0 & 0{,}5 & 1 & 1{,}5 & 2 \end{array}\]
-
-    \begin{center}
-        \includegraphics[scale=0.7]{wurzelfunktion2}
-    \end{center}
-    \subsubsection{Ungerader Wurzelexponent}
-    \vspace{-4mm}
-    Wir wollen die Umkehrfunktion der Potenzfunktion $y = x^3$ bilden. \\
-    Da Potenzfunktionen mit ungeraden Exponenten in $\mathbb{R}$ ganz streng monoton steigend sind, müssen wir die Definitionsmenge nicht einschränken, um eine Umkehrfunktion zu bilden.
-    \begin{align*} & &&{\color{orange}\text{1) Funktionsgleichung nach $x$ auflösen}} \\[5px] f\colon\; y &= x^3 &&{\color{darkgray}| \text{ Wurzel ziehen}} \\[5px] \sqrt[3]{y} &= \sqrt[3]{x^3} \\[5px] \sqrt[3]{y} &= x &&{\color{darkgray}| \text{ Seiten vertauschen}} \\[5px] x &= \sqrt[3]{y} \\[5px] & &&{\color{orange}\text{2) $x$ und $y$ vertauschen}} \\[5px] f^{-1}\colon\; y &= \sqrt[3]{x} \end{align*}
-    Um die Graphen der Funktionen ordentlich zu zeichnen, fertigen wir zwei Wertetabelle an.
-    \[\phantom{^{-1}}f\colon\; \begin{array}{r|c|c|c|c|c|c|c|c|c} x & -2 & -1{,}5 & -1 & -0{,}5 & 0 & 0{,}5 & 1 & 1{,}5 & 2 \\ \hline y & -8 & -3{,}375 & -1 & -0{,}125 & 0 & 0{,}125 & 1 & 3{,}375 & 8 \end{array}\]
-    Die Wertetabelle von $f^{-1}$ erhält man durch Vertauschen der Zeilen der Wertetabelle von $f$.
-    \[f^{-1}\colon\; \begin{array}{r|c|c|c|c|c|c|c|c|c} x & -8 & -3{,}375 & -1 & -0{,}125 & 0 & 0{,}125 & 1 & 3{,}375 & 8 \\ \hline x & -2 & -1{,}5 & -1 & -0{,}5 & 0 & 0{,}5 & 1 & 1{,}5 & 2 \end{array}\]
-    \begin{center}
-        \includegraphics[scale=0.7]{wurzelfunktion3}
-    \end{center}
 
     \subsection{Exponentialfunktion}
     \vspace{-4mm}
@@ -1478,6 +1499,6 @@
             \addlegendentry {$\log_{2}x$};
         \end{axis}
     \end{tikzpicture}
-
+    \newpage
 
 \end{multicols}
